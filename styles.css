@@ -119,3 +119,28 @@ body {
     width: 80px;
     height: 80px;
 }
+
+.container-3  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 100px 400px;
+    background-color: #E5E7EB;
+    font-family: Helvetica;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    color: #1F2937;
+    justify-self: end;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}

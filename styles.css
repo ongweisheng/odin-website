@@ -75,9 +75,47 @@ body {
     align-items: center;
 }
 
-.placeholder {
+.placeholder-1 {
     width: 80px;
     height: 80px;
     background: #E5E7EB;
     padding: 80px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 32px;
+    gap: 32px;
+    font-family: Helvetica;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin: 0 500px;
+    margin-bottom: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder-2 {
+    width: 80px;
+    height: 80px;
 }

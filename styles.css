@@ -144,3 +144,36 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.container-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-family: Helvetica;
+}
+
+.action {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.sub-action {
+    color: #E5E7EB;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 600;
+}

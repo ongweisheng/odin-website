@@ -177,3 +177,14 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 500px;
+    color: #F9FAF8;
+    font-family: Helvetica;
+    font-size: 24px;
+}
